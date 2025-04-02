@@ -6,7 +6,7 @@ WIDTH, HEIGHT = 800, 600
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Движение фона")
 
-background = pygame.image.load("background.png")
+background = pygame.image.load("lesson4/background.png")
 background = pygame.transform.scale(background, (WIDTH, HEIGHT))
 
 background_x = 0

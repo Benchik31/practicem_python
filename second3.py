@@ -7,7 +7,7 @@ WIDTH, HEIGHT = 800, 600
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Игра с коллизиями и стрелами")
 
-background = pygame.image.load("background.png")
+background = pygame.image.load("lesson4/background.png")
 background = pygame.transform.scale(background, (WIDTH, HEIGHT))
 
 class Player(pygame.sprite.Sprite):
