@@ -9,7 +9,7 @@ from gamesingle import game
 
 
 game.start()
-hero = game.start_level(1)
+hero = game.start_level(0)
 
 game.show_menu()
 
